@@ -1,0 +1,19 @@
+{
+  "name": "ebac-gulp-project",
+  "version": "1.0.0",
+  "description": "Projeto EBAC com Gulp",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "sass": "gulp sass",
+    "images": "gulp images",
+    "js": "gulp js"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.32.8"
+  }
+} 

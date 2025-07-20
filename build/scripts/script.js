@@ -1,0 +1,1 @@
+function saudacao(o){return console.log("Olá "+o+"!"),"Olá "+o+"!"}function calcularSoma(o,a){var c=o+a;return console.log("A soma de "+o+" + "+a+" = "+c),c}function verificarIdade(o){return 18<=o?(console.log("Você é maior de idade"),!0):(console.log("Você é menor de idade"),!1)}saudacao("EBAC"),calcularSoma(10,5),verificarIdade(25);

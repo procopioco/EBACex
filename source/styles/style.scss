@@ -1,0 +1,28 @@
+// Arquivo SCSS de exemplo
+@use "sass:color";
+
+$cor-primaria: #3498db;
+$cor-secundaria: #2ecc71;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    color: $cor-primaria;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+} 
