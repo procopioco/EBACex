@@ -1,4 +1,3 @@
-// Arquivo JavaScript de exemplo
 function saudacao(nome) {
     console.log("Olá " + nome + "!");
     return "Olá " + nome + "!";
@@ -20,7 +19,6 @@ function verificarIdade(idade) {
     }
 }
 
-// Executar funções
 saudacao("EBAC");
 calcularSoma(10, 5);
 verificarIdade(25); 
