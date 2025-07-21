@@ -1,0 +1,15 @@
+#breakpoints {
+  mobile: 768px;
+  tablet: 1024px;
+  desktop: 1440px;
+}
+#colors {
+  primary: #333;
+  secondary: #fff;
+  tertiary: #ff0000;
+  quaternary: #000;
+  quinary: #fff;
+  senary: #000;
+  septenary: #fff;
+  octonary: #000;
+}

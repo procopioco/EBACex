@@ -1,0 +1,116 @@
+@import 'variables';
+@import 'maps';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #colors[primary];
+    padding: 16px 0;
+
+    .branding {
+        img {
+            width: 120px;
+            height: 70px;
+        }
+    }   
+
+    nav {
+        ul {
+            list-style: none;
+
+            li {
+                display: inline;
+                font-size: 18px;
+                font-weight: bold;
+
+                a {
+                    color: #colors[secondary];
+                    text-decoration: none;
+                    margin-right: 16px;
+                    font-size: 18px;
+                    font-weight: bold;
+                    transition: color 0.3s ease;
+
+                    &:hover {
+                        color: #colors[tertiary];
+                    }
+                }
+            }
+        }
+    }
+}
+
+section {
+    padding: 16px 0;
+
+    h2 {
+        margin-bottom: 16px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #colors[quinary];
+    }
+
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+
+        .product-item {
+            width: 25%;
+
+            img {
+                width: 100%;
+                height: 180px;
+            }
+        }
+    }
+}
+
+@media (max-width: #breakpoints[mobile]) {
+    .products {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        .product-item {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: #breakpoints[tablet]) {
+    .products {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        .product-item {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: #breakpoints[desktop]) {
+    .products {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        .product-item {
+            width: 100%;
+        }
+    }
+}

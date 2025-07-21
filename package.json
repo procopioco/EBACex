@@ -1,0 +1,24 @@
+{
+  "name": "ebacex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "less": "npx less-watch-compiler ./source/styles/ ./build/styles/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/procopioco/EBACex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/procopioco/EBACex/issues"
+  },
+  "homepage": "https://github.com/procopioco/EBACex#readme",
+  "description": "",
+  "devDependencies": {
+    "less": "^4.4.0"
+  }
+}
