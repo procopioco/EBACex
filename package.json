@@ -1,0 +1,14 @@
+{
+  "name": "ebacex",
+  "version": "1.0.0",
+  "description": "Projeto EBACex com Grunt, LESS e Uglify",
+  "main": "index.js",
+  "scripts": {
+    "grunt": "grunt"
+  },
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-uglify": "^5.2.2"
+  }
+}
